@@ -12,8 +12,7 @@ st.sidebar.write ( "I want ", no_recommend, 'Recommendations' )
 def recommend(musics):
     Index = music[music['Track_Name'] == musics].index[0]
     distances = sorted(list(enumerate(similarity[Index])), reverse=True, key=lambda x: x[1])
-    # no_recommend = int(input("How many recommandations you want? "))
-
+    
     recommended_music_names = []
     for i in distances [0:no_recommend]:
        recommended_music_names.append(music.iloc[i[0]].Track_Name)
@@ -61,11 +60,6 @@ if choice == "Recommendation":
         st.write('Click [Get Recommendations] Button ')
 
 
-
-# with st.sidebar:
-#     choice = option_menu(menu_title=None,
-#                          options=["About System", "All Tracks"],
-#                          icons=["info-circle", "music-note-list"])
 if choice == 'About System':
     about = 'http://localhost:8502'
     webbrowser.open_new_tab(about)
