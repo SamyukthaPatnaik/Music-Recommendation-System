@@ -1,9 +1,17 @@
-# Music-Recommendation-System
-By using Music Recommender System, we can predict and then offer the
-appropriate songs to their users based on the characteristics of the music that has
-been heard previously.
+## Deployment
 
-It includes - Data Visualizations, Exploratory Data Analysis, Model Building, Deployment.
+Deployed using Streamlit,
+to deploy this project run
 
-Deployed using Streamlit, which is free and open source.
-
+for main page - 
+```bash 
+  streamlit run main.py 
+```
+for about page - 
+```bash
+  streamlit run app.py 
+```
+for All tracks page - 
+```bash
+  streamlit run All_Tracks.py 
+```
