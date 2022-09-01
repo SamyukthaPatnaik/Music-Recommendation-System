@@ -12,7 +12,7 @@ st.sidebar.write ( "I want ", no_recommend, 'Recommendations' )
 def recommend(musics):
     Index = music[music['Track_Name'] == musics].index[0]
     distances = sorted(list(enumerate(similarity[Index])), reverse=True, key=lambda x: x[1])
-    
+
     recommended_music_names = []
     for i in distances [0:no_recommend]:
        recommended_music_names.append(music.iloc[i[0]].Track_Name)
