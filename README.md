@@ -14,4 +14,7 @@ to deploy this project run
 ```bash 
   streamlit run main.py 
 ```
+- Streamlit Main Page
+
+![Streamlit image](https://user-images.githubusercontent.com/92504503/188112605-16224ee2-36ad-475d-a0e3-3bec16aaaadb.png)
 
