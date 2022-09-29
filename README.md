@@ -4,7 +4,7 @@
 previously which is **content-based recommendation system**.
 - Collected data of music tracks in the genre **Meditation & Relaxation** from **spotify**.
 - In the web application, if we select one music track it will suggest 5 music tracks by default or we can drag the slider that how many recommendations we want with its **spotify link & preview link of 30sec** which is clickable.
-- Developer Tools IDE's- Pycharm, Jupyter Notebook
+- Developer Tools/ IDE's- Pycharm, Jupyter Notebook
 
 ### Deployment
 
