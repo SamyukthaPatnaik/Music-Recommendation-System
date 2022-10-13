@@ -19,3 +19,6 @@ To deploy this project run
 
 **This GUI was built using** [Streamlit](https://docs.streamlit.io/streamlit-cloud/get-started) 👈
 
+## Note:
+
+If any jupyter file showing this message``the notebook took too long to render``, then dont forget we can copy the URL of the jupyter notebook into [nbviewer](https://nbviewer.jupyter.org/) .
