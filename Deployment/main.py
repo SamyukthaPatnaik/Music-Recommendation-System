@@ -60,9 +60,11 @@ if choice == "Recommendation":
         st.write('Click [Get Recommendations] Button ')
 
 
+# About page 
 if choice == 'About System':
     about = 'http://localhost:8502'
     webbrowser.open_new_tab(about)
+# All tracks page 
 if choice == 'All Tracks':
     All_Tracks = 'http://localhost:8503'
     webbrowser.open_new_tab(All_Tracks)
