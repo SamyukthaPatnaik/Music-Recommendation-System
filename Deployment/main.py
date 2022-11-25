@@ -69,4 +69,4 @@ if choice == 'All Tracks':
     All_Tracks = 'http://localhost:8503'
     webbrowser.open_new_tab(All_Tracks)
 
-
+#Run the file as "streamlit run main.py"
